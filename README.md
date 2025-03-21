@@ -1,0 +1,1 @@
+This a practice script for creating a website that consists of different recipes
