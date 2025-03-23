@@ -1,0 +1,45 @@
+/* styles.css */
+body { padding: 0; margin: 0;    background: rgb(240, 196, 196); }
+
+
+h1 {
+    color: rgb(157, 77, 11);
+    background: rgb(240, 196, 196);
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+img{
+  object-fit: cover;
+  height: 37px;
+}
+
+  .recipe-container {
+    height: 80px;
+    padding: 12px;
+    background: rgb(228, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .recipe-item {
+    border-radius: 10px;
+    margin:5;
+    width: 60px;
+    height: 60px;
+    border: 2px solid darkslategray;
+    background: rgb(228, 171, 171);
+    flex: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    line-height: 60px;
+    color: rgba(90, 15, 15, 0.99);
+    font-family:sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+  }
