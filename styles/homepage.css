@@ -1,18 +1,31 @@
 /* styles.css */
 body { padding: 0; margin: 0;    background: rgb(240, 196, 196); }
 
-
+@font-face {
+  font-family: "norseBold";
+  src: url(Norse-Bold.ttf);
+}
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  box-sizing: border-box;
+  height: 37;
+  
+}
 h1 {
     color: rgb(157, 77, 11);
     background: rgb(240, 196, 196);
-    text-align: center;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
+    font-family: norseBold;
+    box-sizing: border-box;
+    font-size: 37px;
+    margin-top: 35px;
   }
+
 img{
   object-fit: cover;
-  height: 37px;
+  height: 60px;
 }
 
   .recipe-container {
