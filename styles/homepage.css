@@ -45,7 +45,7 @@ img{
     width: 60px;
     height: 60px;
     border: 2px solid darkslategray;
-    background: rgb(228, 171, 171);
+    background: rgb(221, 140, 140);
     flex: 1;
     overflow: hidden;
     word-wrap: break-word;
